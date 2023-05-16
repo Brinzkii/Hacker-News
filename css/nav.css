@@ -1,0 +1,44 @@
+/* Navigation bar */
+
+nav {
+  display: flex;
+  background-color: #ff6600;
+  font-weight: bold;
+  align-items: center;
+  height: 50px;
+  padding: 5px 20px;
+  border-radius: 3px 3px 0 0;
+}
+
+div.nav-left.hidden {
+  display: none;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+}
+
+.nav-link {
+  font-size: 0.80rem;
+  margin: 0 3px;
+}
+
+.nav-left {
+  margin-left: 15px;
+  flex-basis: 300px;
+}
+
+.nav-left > span {
+  border-left: 3px solid black;
+  padding-left: 3px;
+}
+
+.nav-left > span > a {
+  position: relative;
+  top: 1px;
+}
+
+.nav-right {
+  margin-left: auto;
+  text-align: right;
+}

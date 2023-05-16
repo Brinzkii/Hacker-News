@@ -1,0 +1,89 @@
+/* Lists of stories */
+
+.stories-list {
+  margin: 20px 5px;
+}
+
+.stories-list > li {
+  color: gray;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+#user-stories-list {
+  list-style-type: none;
+}
+
+#stories-loading-msg {
+  font-weight: bold;
+  font-size: 150%;
+  margin: 20px 30px;
+}
+
+
+/* Individual stories */
+i.far, i.fas {
+  margin-left: 5px;
+}
+
+ul > li > i.fa-star {
+  margin-left: 10px;
+}
+
+i.fa-star:hover {
+  cursor: pointer;
+  color: #ff6600;
+}
+
+i.fa-trash-alt:hover {
+  cursor: pointer;
+  color: #ff0000;
+}
+
+i.fas {
+  color: #7e7e7e;
+}
+
+.story-link {
+  color: rgba(0, 0, 0, 0.808);
+  font-size: 0.80rem;
+  font-weight: bold;
+  margin: 18px 0px;
+  margin-left: 5px;
+}
+
+.story-link:hover {
+  text-decoration: none;
+}
+
+.story-author {
+  display: block;
+  font-weight: bold;
+  color: rgb(1, 163, 1);
+  font-size: 0.70rem;
+  margin-top: 5px;
+  margin-left: 29px;
+}
+
+ul > li > small.story-author {
+  margin-left: 51px;
+}
+
+.story-user {
+  display: block;
+  font-weight: bold;
+  color: rgb(255, 166, 0);
+  font-size: 0.70rem;
+  margin-top: 5px;
+  margin-left: 29px;
+}
+
+ul > li > small.story-user {
+  margin-left: 51px;
+}
+
+hr {
+  border: rgba(0, 0, 0, 0.096) 1.75px solid;
+}
+
+
